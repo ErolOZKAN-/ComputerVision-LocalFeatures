@@ -1,0 +1,9 @@
+RUN "runner" to work with a single image.
+RUN "runnerAllOfTheImages" to work with all images.
+
+to evaluate matched points we need all the correspondences. SEE paper and the code.
+	alsoEvaluate = false(1);
+	treshold= 0.8; % changes the result significantly  
+	
+	alsoEvaluate = true(1);
+	treshold= 0.8;
